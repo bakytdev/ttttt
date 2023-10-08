@@ -637,7 +637,7 @@ html, body {
     font-weight: 400;
 }
 
-.footer-title{
+.footer-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
