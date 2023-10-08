@@ -1,0 +1,120 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .block,
+    .business-blocks,
+    .news-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .blocks,
+    .business-block,
+    .news-block {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .it,
+    .customers {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .customers-block {
+        height: 100%;
+        width: 100%;
+    }
+
+    .it-text,
+    .customers-text {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .why-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .why-block {
+        margin: 10px 0;
+    }
+
+    .footer-blocks {
+        width: 90%;
+        padding: 10px 0;
+    }
+
+    .footer-general,
+    .footer-title {
+        flex-direction: column;
+    }
+
+    .footer-title h5 {
+        padding-top: 20px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        width: 90%;
+        font-size: 40px;
+    }
+
+    .hero p {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .business h6 {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .business h1,
+    .why h1 {
+        width: 90%;
+        font-size: 40px;
+    }
+
+    .media {
+        width: 90%;
+    }
+
+    .customers-text div p {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .cta h1 {
+        width: 90%;
+        font-size: 33px;
+    }
+
+    .cta p {
+        width: 90%;
+    }
+
+    .footer-blocks {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer-text{
+        padding: 10px 0;
+    }
+}
